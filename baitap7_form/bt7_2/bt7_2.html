@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="bt7_2.css">
+    
+</head>
+    <body>
+        <form action="">
+            <table style="width:50%;" height="50%" border ="3px" cellpadding="5" text-align="center">
+                <tr>
+                    <th colspan="2">PIZZA SHOP 2.0</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" class="fullname" placeholder="Enter your name">
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>Pizza shopping</td>
+                    <td>
+                        <label><input type="radio" name="type" value="supereme">Supereme</label> <br/>
+                        <label> <input type="radio" name="type" value="vegetarian">Vegetarian </label><br/>
+                        <label> <input type="radio" name="type" value="hawaiin">Hawaiin </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Shop</td>
+                    <td>
+                        <select class ="Elemets">
+                            <option value="Tomato">Tomato</option>
+                            <option value="Mango">Mango</option>
+                            <option value="Lemon">Lemon</option>
+                        </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>Option Extra</td>
+                    <td class="Extra">
+                        <input type="checkbox" name="Extra chese" >Extra chese
+                        <input type="checkbox" name="Extra chese">Gluten Free Base
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td colspan="2">
+                        <p>Delivery Instruction</p>
+                        <textarea name="instruction" id="instruction" cols="100%" rows="10"></textarea>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td colspan="2"><input type="submit" value="Send my order" class="sub"></td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
