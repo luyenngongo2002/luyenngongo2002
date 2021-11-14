@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0">
+    <title>Menu</title>
+    <style>
+        .menu {
+            text-align: center;
+            color: blue;
+            border: 3px outset black;
+            background-color: rgb(236, 218, 221);   
+        }   
+        .menu li {
+            display: inline-block;
+            list-style-type: none;
+            padding: 2%;  
+        }
+        .menu li a {
+            text-decoration-line: none;
+            color: blue;
+            size: 20px ;
+        }
+        .menu h1{
+            text-align: left ;
+           margin-top: 50px;
+           size: 20px;
+           color: blue;
+           text-decoration: underline;     
+        }
+        .product_menu {
+            display: grid;
+            grid-template-columns: 50% 50% 100%;
+            grid-template-rows: auto;
+        }
+        .a {
+            display: grid;
+            grid-template-columns: 50% 50% 100%;
+            grid-template-rows: auto;
+        }
+        .text {
+            text-align: center;
+            color: red;
+            position: absolute;
+            border-image-width: 10px
+        }
+    </style>
+</head>
+<body>
+    <div >
+    <ul class="menu">
+        <h1>WOMEN'S PRODUCTS</h1>
+        <li><a href="">All</a></li>
+        <li><a href="">Clothings</a></li>
+        <li><a href="">Bags</a></li>
+        <li><a href="">Shoes</a></li>
+        <li><a href="">Watches</a></li>
+        <li><a href="">Googles</a></li>
+    </ul>
+    </div>
+        <br>
+        <div class="product_menu">
+            <div class="a">
+                <div>
+                    <img src="image/anh1.jpg" style="width: 350px;">
+                    <div style="text-align: right; padding-right: 25%"></div>
+                        <button style="background-color:brown";text-align: right>Add to cart</button>
+                    <div>Woman bags
+                    <div class="product-price">$100.00</div>
+                    <div class="product-price">$50.00</div>
+
+                </div>
+                <div>
+                    <img src="image/anh2.jpg" style="width:350px"></img>
+                    <div style="text-align: right;padding-right: 25%"></div>
+                        </style> <button style="background-color:brown">Add to cart</div>
+                <div>Google
+                    <div class="product-price">$25.00</div>
+                </div>
+            </div>
+                <div>
+                    <h1 class="text"; style="margin-top: 20px;">Beautiful</h1>
+                    <img src="image/anh3.jpg" style="width: 600px">
+                </div>
+        </div>
+</body>
+</html>
