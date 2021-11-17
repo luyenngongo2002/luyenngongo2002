@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    background: white;
+    color: gray;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container img{
+    margin-top: 75px;
+    margin-left: 250px;
+    width: 400px;
+    height: 500px;
+    border: 0.5px solid gray;
+}
+
+#header{
+    font-size: 30px;
+    color: rgb(226, 128, 37);
+    font-weight: bold;
+}
+
+#text{
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+ #text div{
+    padding: 10px;
+    margin-right: 200px;
+}
+
+#price{
+    color: black; 
+    font-size: 30px;
+}
+#input{
+    padding: 5px;
+    border: 1px solid gray;
+    width: 35px;
+    border-radius: 3px;
+}
+button{
+    padding: 5px;
+    color: white;
+    background: rgb(100, 243, 81);
+    border-radius: 3px;
+    border: 1px solid rgb(100, 243, 81);
+    transition-duration: 1s;
+    font-weight: bold;
+}
+button i{
+    color: white;
+    background: inherit;
+}
+
+button:hover ,button:focus{
+    border: 1px solid rgb(192, 83, 20);
+    background: rgb(218, 112, 14);
+}

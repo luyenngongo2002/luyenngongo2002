@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color:rgb(236, 232, 233);
+}
+.container{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(114, 203, 214);
+    
+}
+.header{
+    display: grid;
+    grid-template-columns: 25% 60% 15%;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+.logo img{
+    margin-left: 70px;
+    height: 60%;
+    width: 40%;
+    border: 1px solid rgb(235, 225, 225);
+}
+.search{
+    padding-left: 200px;
+    padding-top: 25px;
+    
+}
+.input2{
+    width: 100%;
+    height: 100%;
+}
+.search button{
+    margin-left: -30px;
+    border: none;
+    font-size: 12px;
+}
+.edit2{
+    position: relative;
+    left: 123px;
+    top: -19px;
+}
+.cart{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.cart-icon{
+    height: 10px;
+    padding-top: 60%;
+    padding-left: 20%;
+}
+.cart-icon i{
+    border: 2px solid rgb(79, 211, 27);
+    font-size:24px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+.cart2 p{
+    margin-top: 17%;
+    color: slategray;
+}
+.content{
+    background-color: rgb(238, 236, 234);
+    height: 1000px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 5% 60% auto 10%;
+}
+.danhmuc{
+    background-color: slategrey;
+    
+}
+.danhmuc ul{
+    list-style-type: none;
+    margin-left: 2%;
+}
+.danhmuc li{
+    
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+    color: white;
+}
+.danhmuc a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.danhmuc a:hover {
+    background: #F1F1F1;
+    color: #333;
+}
+.main1{
+    background-color: seagreen;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+}
+.dmsp{
+    width: 100%;
+    background-color: rgb(244, 250, 250);
+    display: grid;
+    grid-template-rows: auto ;
+}
+.dm1{
+    background-color: green;
+    border: 1px solid green;
+    color:white;
+}
+.dm{
+    background-color: white;
+    border: 1px solid green;
+}
+.dm:hover{
+    color:green;
+}
+.sp{
+    background-color: orange;
+}
+.sp img {
+    width: 100%;
+    height: 100%;
+}
+.main2{
+    
+    display: grid;
+    grid-auto-rows: 20% 80%;
+}
+.title{
+    margin-top: 10px;
+    border:1px solid orange;
+    background-color: white;
+}
+.title ul{
+    color: green;
+    list-style-type: none;
+    margin-left: 2%;
+}
+.title ul:hover{
+    color:green;
+}
+.title li{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color:rgb(209, 106, 38);
+    margin-left: -5px;
+    color: black;
+}
+.title a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.title a:hover{
+    background: #F1F1F1;
+    color: #333;
+}
+.main3{
+    border:1px solid orange;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 200px;
+    
+}
+.hinh p{
+    margin-left: 15%;
+    color: white;
+
+}
+.hinh img{
+    margin-top: 30px;
+    width: 70%;
+    height: 40%;
+}
+.footer{
+    height: 10px;
+    margin-top: 1px;
+    padding: 50px;
+
+}
+.footer ul {
+    padding:10px;
+    text-align: center;
+}
+.menu-main{
+    height: 650px;  
+}

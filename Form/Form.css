@@ -1,0 +1,112 @@
+
+body{
+    background-image: url(image/hinh4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 500px;
+    background: rgba(0, 0, 0 , 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 3px 3px 17px 2px rgba(196, 122, 122, 0.8);
+}
+
+.form-heading{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.form-input{
+    background: transparent;
+    /* màu trong suốt */
+    border:0;
+    outline: 0;
+    font-size: 20px;
+}
+input[type="text"]{
+    color: white;
+}
+input[type="password"]{
+    color: white;
+}
+.form-input::placeholder{
+    color:rgb(204, 175, 121);
+}
+.form-sub{
+    background: transparent;
+    border: 1px solid #fff;
+    color:rgb(204, 175, 121);
+    width: 40%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 35%;
+    padding: 10px;
+}
+.form-sub:active{
+    color:rgb(211, 24, 24);
+}
+#icon_1, #icon_2{
+    color:rgb(204, 175, 121);
+    padding:5px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 25px;
+    margin-top: 2px;
+}
+.footer{
+    color:rgb(223, 113, 50);
+    padding: 5px;
+    color: #fff;
+}
+.text-left1:active{
+    color:rgb(211, 24, 24);
+}
+.icons{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 40px;
+    color: aliceblue;
+    padding: 1px;
+}
+.footer-text h3{
+    font-size: 25px;
+}
+.icons-content{
+    border: 2px solid rgb(131, 123, 123);
+    border-radius: 15px;
+   
+}
+.icons-content i{
+    color: rgb(51, 111, 167);
+    padding: 2px;
+}
+.text-left1{
+    color:rgb(226, 153, 17)
+}
+.icons-content h6{
+    color: rgb(231, 235, 238);
+    padding: 2px;
+}
+
+
+
